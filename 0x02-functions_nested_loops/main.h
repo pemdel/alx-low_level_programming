@@ -3,6 +3,6 @@
 #define MAIN_H
 /* defines every function in our main.h */
 
-int _putchar(char c)
+int _putchar(char c);
 
 #endif
