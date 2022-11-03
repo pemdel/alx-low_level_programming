@@ -29,3 +29,4 @@ int prime_checker(int n, int i)
 	if ((n / i) < i)
 		return (1);
 	return (prime_checker(n, i + 1));
+}
