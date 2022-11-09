@@ -12,9 +12,6 @@ int main(int argc, char *argv[])
 {
 	int result = 0, num, x, y, z;
 
-	if (argc == 1)
-		printf("0\n");
-
 	for (x = 1; x < argc; x++)
 	{
 		for (y = 0; argv[x][y] != '\0'; y++)
