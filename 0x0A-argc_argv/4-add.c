@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
 	for (z = 1; z < argc; z++)
 	{
-		num = atoi(argv[k]);
+		num = atoi(argv[z]);
 		result += num;
 	}
 	printf("%d\n", result);
