@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int result = 0, num, x, y;
+	int result = 0, num, x, y, z;
 
 	if (argc == 1)
 		printf("0\n");
