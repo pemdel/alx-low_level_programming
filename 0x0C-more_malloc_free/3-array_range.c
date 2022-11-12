@@ -8,7 +8,7 @@
  * Return: if function fails - NULL else pointer to new array
  */
 
-int *array_range(int min, int max);
+int *array_range(int min, int max)
 {
 	int *aray, index, size;
 
